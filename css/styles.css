@@ -725,7 +725,7 @@ body {
   margin-right: 8px;
 }
 .modal-form-check:checked + .modal-form-check-desc::before {
-  background-image: url(../images/check-mark.svg#icon-Vector);
+  background-image: url(../images/vector.svg);
   background-color: #4d5ae5;
   background-repeat: no-repeat;
   background-size: cover;
