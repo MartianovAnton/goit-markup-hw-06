@@ -448,6 +448,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-footer-color);
   font-weight: normal;
+  margin-bottom: 16px;
 }
 .social-media-container {
   margin-left: 120px;
@@ -456,6 +457,9 @@ body {
   display: flex;
 }
 .container-media {
+  display: flex;
+}
+.footer-form-wraper {
   display: flex;
 }
 /* ============/footer/============= */
@@ -645,7 +649,7 @@ body {
 .modal-form-input {
   width: 100%;
   height: 40px;
-  border: 1px solid #2e2f42;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 42px;
   transition: border-color var(--transition-element);
@@ -675,7 +679,11 @@ body {
 .modal-form-fild {
   margin-bottom: 8px;
 }
+.modal-form-fild-comment {
+  margin-bottom: 16px;
+}
 .modal-form-comment {
+  display: block;
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.04em;
@@ -728,7 +736,8 @@ body {
   background-image: url(../images/vector.svg);
   background-color: #4d5ae5;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
+  background-position: center;
 }
 .visually-hidden {
   position: absolute;
@@ -760,8 +769,8 @@ body {
 .modal-form-check-desc {
   display: flex;
   align-items: center;
-  padding-top: 16px;
-  padding-bottom: 24px;
+
+  margin-bottom: 24px;
 }
 .modal-form-submit {
   align-self: center;
@@ -784,7 +793,7 @@ body {
 /* ==============/modal form/ ================*/
 /* ==============footer-form================= */
 .footer-form {
-  margin-left: 80px;
+  margin-left: auto;
 }
 .footer-input {
   border: 1px solid #ffffff;
@@ -792,7 +801,6 @@ body {
   border-radius: 4px;
 }
 .footer-input {
-  margin-top: 16px;
   height: 40px;
   width: 264px;
   padding-left: 16px;
@@ -808,16 +816,14 @@ body {
   background: #4d5ae5;
   border-radius: 4px;
   margin-left: 24px;
-  padding-right: 64px;
+  padding-right: 24px;
   padding-left: 24px;
-  position: relative;
+  display: flex;
+  border: none;
+  align-items: center;
+  justify-content: center;
 }
 .footer-input-icon {
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: 24px;
-  transform: translateY(-50%);
-  transition: fill var(--transition-element);
+  margin-left: 16px;
 }
 /* =============/footer-form/================ */

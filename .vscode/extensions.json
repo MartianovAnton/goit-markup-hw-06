@@ -1,3 +1,5 @@
 {
-  "recommendations": ["gencay.vscode-chatgpt"]
+  "recommendations": [
+    "gencay.vscode-chatgpt"
+  ]
 }

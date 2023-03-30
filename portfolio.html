@@ -33,7 +33,9 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
               <a class="menu-link link" href="./index.html">Studio</a>
             </li>
             <li class="menu-item">
-              <a class="secondary-link link nav-index" href="./portfolio.html">Portfolio</a>
+              <a class="secondary-link link nav-index" href="./portfolio.html"
+                >Portfolio</a
+              >
             </li>
             <li class="menu-item">
               <a class="menu-link link" href="">Contacts</a>
@@ -257,7 +259,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
               <a
                 class="project-card-list-shadow overlay-wraper-card"
                 href=""
-              >
+              ></a>
               <div class="overlay-wraper">
                 <img
                   src="./images/project/coffee.jpg"
@@ -278,7 +280,6 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
             </li>
           </ul>
         </div>
-        </a>
       </section>
     </main>
     <!-- footer -->
@@ -330,20 +331,22 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
         <!-- footer-form -->
         <form class="footer-form">
           <p class="social-media-text">Subscribe</p>
-          <label class="footer-label">
-            <input
-              type="email"
-              class="footer-input"
-              name="user-email"
-              placeholder="E-mail"
-            />
-            <span class="input-icon-wraper">
-            <button type="submit" class="footer-submit-btn">Subscribe</button>
-            <svg class="footer-input-icon" width="24" height="24">
-              <use href="./images/sprite.svg#icon-frame"></use>
-            </svg>
-          </label>
-        </span>
+          <div class="footer-form-wraper">
+            <label class="footer-label">
+              <input
+                type="email"
+                class="footer-input"
+                name="user-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="footer-submit-btn">
+              Subscribe
+              <svg class="footer-input-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-frame"></use>
+              </svg>
+            </button>
+          </div>
         </form>
       </div>
     </footer>
